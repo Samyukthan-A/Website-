@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projects</title>
+    <meta property="og:title" content="Projects" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/x-icon" href="public\image-modified.png">
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-secondary-400);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./projects.css" rel="stylesheet" />
+
+      <div class="projects-container">
+        <header-wrapper class="header-wrapper">
+          <!--Header component-->
+          <div data-role="Header" class="header-header">
+            <nav class="header-nav">
+              <div class="header-container1">
+                <a href="index.html" class="header-navlink1">
+                  <span>Ad Astra🚀</span>
+                  <br />
+                </a>
+                <div class="header-menu1">
+                  <a href="index.html" class="header-navlink2 Large">Home</a>
+                  <a href="profile.html" class="header-navlink3 Large">
+                    Profile
+                  </a>
+                  <a href="projects.html" class="header-navlink4 Large">
+                    Projects
+                  </a>
+                </div>
+                <div class="header-container2">
+                  <div class="header-container3">
+                    <primary-pink-button-wrapper
+                      class="primary-pink-button-wrapper"
+                    >
+                      <!--PrimaryPinkButton component-->
+                      <div class="primary-pink-button-container"></div>
+                    </primary-pink-button-wrapper>
+                  </div>
+                  <div data-role="BurgerMenu" class="header-burger-menu">
+                    <svg viewBox="0 0 1024 1024" class="header-icon1">
+                      <path
+                        d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div data-role="MobileMenu" class="header-mobile-menu">
+              <div class="header-top">
+                <a href="index.html" class="header-navlink5 Large">
+                  Hi👋
+                </a>
+                <div data-role="CloseMobileMenu" class="header-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon3">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="header-mid">
+                <div class="header-menu2">
+                  <a href="index.html" class="header-navlink6 Large">Home</a>
+                  <a href="profile.html" class="header-navlink7 Large">
+                    Profile
+                  </a>
+                  <a href="projects.html" class="header-navlink8 Large">
+                    Project
+                  </a>
+                </div>
+              </div>
+              <div class="header-bot">
+                <primary-pink-button-wrapper-ln6t
+                  class="primary-pink-button-wrapper-ln6t"
+                >
+                  <!--PrimaryPinkButton component-->
+                  <div class="primary-pink-button-container1"></div>
+                </primary-pink-button-wrapper-ln6t>
+              </div>
+            </div>
+          </div>
+        </header-wrapper>
+        <blog-post-header61-wrapper
+          class="blog-post-header61-wrapper"
+          rootclassname="blog-post-header61undefined"
+        >
+          <!--BlogPostHeader61 component-->
+          <div
+            class="blog-post-header61-blog-post-header3 thq-section-padding blog-post-header61root-class-name"
+          >
+            <div class="blog-post-header61-max-width thq-section-max-width">
+              <div class="blog-post-header61-breadcrumbs"></div>
+              <div class="blog-post-header61-content1 thq-flex-column">
+                <h1 class="blog-post-header61-title thq-heading-1">
+                  <fragment class="projects-fragment12">
+                    <span class="projects-text12">Projects</span>
+                  </fragment>
+                </h1>
+                <div class="blog-post-header61-content2">
+                  <img
+                    alt="PlaceholderImage3501"
+                    src="public/1689636535235-1500w.jpg"
+                    class="blog-post-header61-author-image thq-img-round thq-img-ratio-1-1"
+                  />
+                  <div class="blog-post-header61-author">
+                    <span class="thq-body-small">
+                      <fragment class="projects-fragment11">
+                        <span class="projects-text11">Samyukthan Ananth</span>
+                      </fragment>
+                    </span>
+                  </div>
+                  <div class="blog-post-header61-time">
+                    <span class="thq-body-small">
+                      <fragment class="projects-fragment10">
+                        <span class="projects-text10">05 March 2025</span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </blog-post-header61-wrapper>
+        <features41-wrapper
+          class="features41-wrapper"
+          rootclassname="features41undefined"
+        >
+          <!--Features41 component-->
+          <div
+            class="features41-layout301 thq-section-padding features41root-class-name"
+          >
+            <div class="features41-max-width thq-section-max-width">
+              <div class="features41-row thq-grid-auto-300">
+                <div class="features41-feature1">
+                  <img
+                    alt="image1"
+                    src="public/1741055655771-600w.jpg"
+                    class="features41-img1 thq-img-ratio-4-3"
+                  />
+                  <div class="features41-content1 thq-flex-column">
+                    <div class="features41-section-title1 thq-flex-column">
+                      <h3 class="features41-title1 thq-heading-3">
+                        <fragment class="projects-fragment13">
+                          <span class="projects-text13">Home Lab Server</span>
+                        </fragment>
+                      </h3>
+                      <span class="features41-description1 thq-body-small">
+                        <fragment class="projects-fragment21">
+                          <span class="projects-text23">
+                            Set up a home lab with&nbsp;Virtual Desktop
+                            Infrastructure using Kasm and cloud drive using
+                            Nextcloud and accessed through cloudflare tunnels
+                            under my Domain
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features41-action5 thq-flex-row">
+                      <a
+                        href="https://github.com/Samyukthan-A/Home_Lab"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features41-button1 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment17">
+                            <span class="projects-text19">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="features41-feature2">
+                  <img
+                    alt="image2"
+                    src="public/screenshot%202025-02-15%20070654-600w.png"
+                    class="features41-img2 thq-img-ratio-4-3"
+                  />
+                  <div class="features41-content2 thq-flex-column">
+                    <div class="features41-section-title2 thq-flex-column">
+                      <strong class="features41-title2 thq-heading-3">
+                        <fragment class="projects-fragment14">
+                          <span class="projects-text14">Pico Rubber Ducky</span>
+                        </fragment>
+                      </strong>
+                      <span class="features41-description2 thq-body-small">
+                        <fragment class="projects-fragment22">
+                          <span class="projects-text24">
+                            A Pico Ducky payload that executes a
+                            Valentine-themed Python script on the target
+                            machine. While disabling The targets windows
+                            defender
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features41-action6 thq-flex-row">
+                      <a
+                        href="https://github.com/Samyukthan-A/Ducky_Valentine"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features41-button2 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment18">
+                            <span class="projects-text20">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="features41-feature3">
+                  <img
+                    alt="PlaceholderImage1314"
+                    src="public/1731160088494-600w.jpg"
+                    class="features41-img3 thq-img-ratio-4-3"
+                  />
+                  <div class="features41-content3 thq-flex-column">
+                    <div class="features41-section-title3 thq-flex-column">
+                      <strong class="features41-title3 thq-heading-3">
+                        <fragment class="projects-fragment15">
+                          <span class="projects-text15">
+                            USB Password Manager
+                          </span>
+                        </fragment>
+                      </strong>
+                      <span class="features41-description3 thq-body-small">
+                        <fragment class="projects-fragment23">
+                          <span class="projects-text25">
+                            A Python application that detects a USB containing
+                            an encrypted file with passwords. It then presents a
+                            GUI for user input, allowing retrieval of passwords
+                            indexed by number. Upon selection, it decrypts the
+                            password and types it into the input field using
+                            keyboard emulation.
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features41-action7 thq-flex-row">
+                      <a
+                        href="https://github.com/Samyukthan-A/USB-Password-Manager"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features41-button3 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment19">
+                            <span class="projects-text21">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="features41-feature4">
+                  <img
+                    alt="image 4"
+                    src="public/screenshot%202025-02-15%20071736-600w.png"
+                    class="thq-img-ratio-4-3"
+                  />
+                  <div class="features41-content4 thq-flex-column">
+                    <div class="features41-section-title4 thq-flex-column">
+                      <strong class="features41-title4 thq-heading-3">
+                        <fragment class="projects-fragment16">
+                          <span class="projects-text16">
+                            <span>Anti-Rubber Ducky</span>
+                            <br />
+                          </span>
+                        </fragment>
+                      </strong>
+                      <span class="features41-description4 thq-body-small">
+                        <fragment class="projects-fragment24">
+                          <span class="projects-text26">
+                            Python script automatically runs in the background,
+                            checking for any unauthorized USB plug-ins. If an
+                            unauthorized device is detected, it uses SMTP to
+                            send an email to the admin (on loop) and shuts down
+                            the system to prevent malicious access.
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features41-action8 thq-flex-row">
+                      <a
+                        href="https://github.com/Samyukthan-A/Anti_Rubber_Ducky"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features41-button4 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment20">
+                            <span class="projects-text22">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </features41-wrapper>
+        <features44-wrapper
+          class="features44-wrapper"
+          rootclassname="features44undefined"
+        >
+          <!--Features44 component-->
+          <div
+            class="features44-layout301 thq-section-padding features44root-class-name"
+          >
+            <div class="features44-max-width thq-section-max-width">
+              <div class="features44-row thq-grid-auto-300">
+                <div class="features44-feature1">
+                  <img
+                    alt="image1"
+                    src="public/1738769886938-600w.jpg"
+                    class="features44-img1 thq-img-ratio-4-3"
+                  />
+                  <div class="features44-content1 thq-flex-column">
+                    <div class="features44-section-title1 thq-flex-column">
+                      <h3 class="features44-title1 thq-heading-3">
+                        <fragment class="projects-fragment25">
+                          <span class="projects-text27">
+                            Raspberry pi Firewall
+                          </span>
+                        </fragment>
+                      </h3>
+                      <span class="features44-description1 thq-body-small">
+                        <fragment class="projects-fragment33">
+                          <span class="projects-text35">
+                            Firewall Setup – Configured the Raspberry Pi as a
+                            firewall to control and monitor network traffic.
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features44-action5 thq-flex-row">
+                      <a
+                        href="https://www.linkedin.com/in/samyukthan/details/projects/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features44-button1 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment29">
+                            <span class="projects-text31">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="features44-feature2">
+                  <img
+                    alt="image2"
+                    src="public/1708352353627%20(1)-600w.jpg"
+                    class="features44-img2 thq-img-ratio-4-3"
+                  />
+                  <div class="features44-content2 thq-flex-column">
+                    <div class="features44-section-title2 thq-flex-column">
+                      <strong class="features44-title2 thq-heading-3">
+                        <fragment class="projects-fragment26">
+                          <span class="projects-text28">
+                            Attendance Tracker and Absence Notification Bot
+                          </span>
+                        </fragment>
+                      </strong>
+                      <span class="features44-description2 thq-body-small">
+                        <fragment class="projects-fragment34">
+                          <span class="projects-text36">
+                            <span>
+                              The Attendance Tracker and Absence Notification
+                              Bot is a Python-based Discord bot designed to
+                              streamline the attendance tracking process.
+                            </span>
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features44-action6 thq-flex-row">
+                      <a
+                        href="https://github.com/SamyukthanA/discord-bott"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="features44-button2 thq-button-flat"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment30">
+                            <span class="projects-text32">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="features44-feature3">
+                  <img
+                    alt="PlaceholderImage1314"
+                    src="public/pexels-vie-studio-4439444-600w.jpg"
+                    class="features44-img3 thq-img-ratio-4-3"
+                  />
+                  <div class="features44-content3 thq-flex-column">
+                    <div class="features44-section-title3 thq-flex-column">
+                      <strong class="features44-title3 thq-heading-3">
+                        <fragment class="projects-fragment27">
+                          <span class="projects-text29">Title</span>
+                        </fragment>
+                      </strong>
+                      <span class="features44-description3 thq-body-small">
+                        <fragment class="projects-fragment35">
+                          <span class="projects-text40">
+                            Work In Process&nbsp;
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features44-action7 thq-flex-row">
+                      <button class="thq-button-flat">
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment31">
+                            <span class="projects-text33">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="features44-feature4">
+                  <img
+                    alt="image 4"
+                    src="public/pexels-vie-studio-4439444-600w.jpg"
+                    class="thq-img-ratio-4-3"
+                  />
+                  <div class="features44-content4 thq-flex-column">
+                    <div class="features44-section-title4 thq-flex-column">
+                      <strong class="features44-title4 thq-heading-3">
+                        <fragment class="projects-fragment28">
+                          <span class="projects-text30">Coming Soon</span>
+                        </fragment>
+                      </strong>
+                      <span class="features44-description4 thq-body-small">
+                        <fragment class="projects-fragment36">
+                          <span class="projects-text41">
+                            Work In Process&nbsp;
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="features44-action8 thq-flex-row">
+                      <button class="thq-button-flat">
+                        <span class="thq-body-small">
+                          <fragment class="projects-fragment32">
+                            <span class="projects-text34">Read More</span>
+                          </fragment>
+                        </span>
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                          ></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </features44-wrapper>
+        <footer-gray2-wrapper class="footer-gray2-wrapper">
+          <!--FooterGray2 component-->
+          <footer class="footer-gray2-footer">
+            <div class="footer-gray2-divider"></div>
+            <div class="footer-gray2-container1">
+              <div class="footer-gray2-container2">
+                <div class="footer-gray2-container3">
+                  <span class="footer-gray2-text1">
+                    <span>Created with Love ❤ By Sam</span>
+                    <br />
+                  </span>
+                  <span class="footer-gray2-text4">Social</span>
+                  <div class="footer-gray2-container4">
+                    <a
+                      href="https://github.com/Samyukthan-A"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-gray2-link1"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="footer-gray2-icon1">
+                        <path
+                          d="M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/samyukthan/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-gray2-link2"
+                    >
+                      <img
+                        alt="image"
+                        src="public/%5Bcitypng.com%5Dhd%20vector%20flat%20linkedin%20in%20round%20icon%20png%20-%202000x2000-200h.png"
+                        class="footer-gray2-image1"
+                      />
+                    </a>
+                    <img
+                      alt="image"
+                      src="public/%C3%A2%C2%80%C2%94pngtree%C3%A2%C2%80%C2%94instagram%20icon%20instagram%20logo_3584853-200h.png"
+                      class="footer-gray2-image2"
+                    />
+                    <a
+                      href="https://medium.com/@asamyukthan1"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-gray2-link3"
+                    >
+                      <img
+                        alt="image"
+                        src="public/me2070b6b1-medium-logo-blog-medium-medium-logo-icon-free-download-on-iconfinder-200h.png"
+                        class="footer-gray2-image3"
+                      />
+                    </a>
+                    <a
+                      href="https://tryhackme.com/p/edASTRO"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer-gray2-link4"
+                    >
+                      <img
+                        alt="image"
+                        src="public/68747470733a2f2f692e696d6775722e636f6d2f33486e435a6a762e706e67-200h.png"
+                        class="footer-gray2-image4"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </footer-gray2-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

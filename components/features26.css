@@ -1,0 +1,248 @@
+.features26-layout300 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features26-max-width {
+  gap: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.features26-section-title {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features26-content1 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.features26-text1 {
+  text-align: center;
+}
+ 
+.features26-content2 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.features26-row {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.features26-feature1 {
+  gap: 32px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features26-feature1-image {
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+ 
+.features26-feature1-title {
+  text-align: center;
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-content3 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features26-feature1-description {
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-feature2 {
+  gap: 32px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features26-feature2-image {
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+ 
+.features26-content4 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features26-feature2-title {
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-feature2-description {
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-feature3 {
+  gap: 32px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features26-feature3-image {
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+ 
+.features26-content5 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features26-feature3-title {
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-feature3-description {
+  padding-left: var(--dl-space-space-unit);
+}
+ 
+.features26-fragment1 {
+  display: contents;
+}
+ 
+.features26-text2 {
+  display: inline-block;
+}
+ 
+.features26-fragment2 {
+  display: contents;
+}
+ 
+.features26-text3 {
+  display: inline-block;
+}
+ 
+.features26-fragment3 {
+  display: contents;
+}
+ 
+.features26-text4 {
+  display: inline-block;
+}
+ 
+.features26-fragment4 {
+  display: contents;
+}
+ 
+.features26-text5 {
+  display: inline-block;
+}
+ 
+.features26-fragment5 {
+  display: contents;
+}
+ 
+.features26-text6 {
+  display: inline-block;
+}
+ 
+.features26-fragment6 {
+  display: contents;
+}
+ 
+.features26-text7 {
+  display: inline-block;
+}
+ 
+.features26-fragment7 {
+  display: contents;
+}
+ 
+.features26-text8 {
+  display: inline-block;
+}
+ 
+.features26root-class-name {
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  padding-right: var(--dl-space-space-unitandahalfunit);
+}
+ 
+@media(max-width: 991px) {
+  .features26-section-title {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .features26-max-width {
+    gap: 24px;
+  }
+  .features26-section-title {
+    width: auto;
+  }
+  .features26-text1 {
+    text-align: center;
+  }
+  .features26-row {
+    flex-direction: column;
+  }
+  .features26-feature2 {
+    width: auto;
+  }
+  .features26-feature3 {
+    width: auto;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features26root-class-name {
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+}
